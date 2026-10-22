@@ -1,6 +1,6 @@
 # Quiz en images — Formes en tête
 
-Quiz responsive réalisé avec Vue 3 et la Composition API. Il propose cinq questions illustrées sur les formes géométriques, trois choix par question, un score et une barre de progression.
+Quiz responsive réalisé avec Vue 3 et la Composition API. Il propose cinq questions illustrées sur les formes géométriques, trois réponses par question, un score et une barre de progression.
 
 ## Installation et lancement
 
@@ -22,4 +22,4 @@ npm run build
 - Les choix sont désactivés après une réponse ; il faut répondre avant de passer à la question suivante.
 - Après la cinquième question, le résultat final s’affiche. « Rejouer le quiz » remet le score et la progression à zéro.
 
-Les questions sont définies dans `src/App.vue`. Les illustrations SVG locales sont dans `public/images`. Les captures sont dans `captures/` et le compte rendu dans `compte-rendu/compte-rendu.md`.
+Le composant Vue est `App.vue`, son entrée est `main.ts` et les styles sont dans `quiz.css` et `base.css`. Les cinq illustrations SVG locales sont dans `public/images`. Les captures d’écran et le compte rendu sont aussi inclus dans le dépôt.
