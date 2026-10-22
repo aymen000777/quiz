@@ -1,4 +1,4 @@
-﻿import './assets/base.css'
+import './base.css'
 import './quiz.css'
 
 import { createApp } from 'vue'
